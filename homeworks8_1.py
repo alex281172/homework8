@@ -1,5 +1,5 @@
 count = 1
-zero_for = '0000'
+zero_four = '0000'
 while count <= 4:
-    print(count, zero_for)
+    print(count, zero_four)
     count += 1
