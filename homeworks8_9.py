@@ -6,6 +6,7 @@ for counter in range(len(number_my)):
     number = int(number_my[counter])
     if number > count_max:
         count_max = number
-print('*' * 50)
+lenth_finish = len(' - максимальная цифра ' + ' в числе: ' + number_my)
+print('*' * lenth_finish)
 print(count_max, '- максимальная цифра', 'в числе:', number_my)
-print('*' * 50)
+print('*' * lenth_finish)

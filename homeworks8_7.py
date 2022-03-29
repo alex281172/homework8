@@ -7,5 +7,8 @@ for counter in range(len(number_my)):
     summ_digit = summ_digit * number
     print(number)
 
-print('*' * 20)
-print("произведение всех цифр числа ", number_my, ':  ', summ_digit, sep='')
+lenth_finish = len('произведение всех цифр числа '+number_my+':  '+str(summ_digit))
+
+print('*' * lenth_finish)
+print('произведение всех цифр числа ', number_my, ':  ', summ_digit, sep='')
+print('*' * lenth_finish)

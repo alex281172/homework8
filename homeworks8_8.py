@@ -6,9 +6,11 @@ for counter in range(len(number_my)):
     number = int(number_my[counter])
     if number == 5:
         count_five += 1
-print('*' * 30)
+
+lenth_finish = len('Цифра 5 есть в числе '+ number_my)
+print('*' * lenth_finish)
 if count_five != 0:
-    print("Цифра 5 есть в числе", number_my)
+    print('Цифра 5 есть в числе', number_my)
 else:
-    print("Цифры 5 нет в числе", number_my)
-print('*' * 30)
+    print('Цифры 5 нет в числе ', number_my)
+print('*' * lenth_finish)
